@@ -1,21 +1,25 @@
-body {margin:0;}
+body {
+    margin:0;
+    background-color: bisque;
+}
 
 #logo_top {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    z-index: 2;
 }
 
 ul {
   list-style-type: none;
   margin: 0px;
-  padding-left: 200px;
+  padding-left: 150px;
   overflow: hidden;
   background-color: #654EA3;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 li {
@@ -40,4 +44,13 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
+}
+
+#img_home {
+    width: 30vw;
+}
+
+#row {
+    top: 200px;
+    position: relative;
 }
